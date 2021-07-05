@@ -143,7 +143,6 @@ a:hover {
   }
 h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
     color: #66bfbf;
     font-weight: normal;
   }
@@ -167,6 +166,7 @@ h2 {
     color: #66bfbf;
     font-weight: normal;
   }
+
   .bottom-cloud {
     position: absolute;
     left: 1px;
@@ -182,6 +182,18 @@ h2 {
   .mountain-img {
     width: 19.3rem;
   }
+  .middle-container {
+    margin: 48px 0;
+}
+.my-image {
+    height: 11.5rem;
+    width: 11.5rem;
+    margin-bottom: 1rem;
+}
+  .hello{
+    font-size: 2rem;
+    font-weight: bold;
+  }
   .profile {
     width: 100%;
     margin: 0 auto 3rem auto;
@@ -189,12 +201,12 @@ h2 {
   .skills{
     margin-top: 3rem;
   }
-  .skill-row {
+.skill-row {
     width: 100%;
-    margin: 100px auto 100px auto;
+    margin: 2.25rem auto 100px auto;
     line-height: 2;
     text-align: center;
-  }
+}
   .code-img {
     width: 62%;
     margin-left: 18%;
