@@ -9,6 +9,7 @@ h1 {
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
   color: #66bfbf;
+  font-weight: bold;
 }
 
 h2 {
@@ -23,16 +24,21 @@ h3 {
   color: #11999e;
 }
 
-
-
-hr{
-    border-top: 6px dotted #EAF6F6;
-    border-bottom: none;
-    width: 4%;
+hr {
+  border-top: 6px dotted #eaf6f6 ;
+  border-bottom: none;
+  width: 4%;
+  background-color:white;
+  opacity: 1;
+margin: auto auto 2%;
 }
 
-p{
-    color:#40514E;
+p {
+  color: #40514e;
+}
+
+#title {
+  background-color: #eaf6f6;
 }
 
 .top-container {
@@ -40,19 +46,31 @@ p{
   position: relative;
   padding-top: 100px;
 }
+
 .middle-container {
-    margin:100px 0;
+  margin: 100px 0;
 }
 .bottom-container {
-    background-color: #66BFBF;
-    margin: 3rem 0 0 0;
-    padding: 2rem;
+  background-color: #66bfbf;
+  margin: 3rem 0 0 0;
+  padding: 2rem;
 }
 
 .profile {
   width: 50%;
-  margin: 0  auto 3rem auto;
+  margin: 0 auto 3rem auto;
 }
+
+.my-image {
+  height: 12.5rem;
+  width: 12.5rem;
+  margin-bottom: 1rem;
+}
+
+.mountain-img {
+  width: 37.5rem;
+}
+
 
 .skill-row {
   width: 50%;
@@ -85,32 +103,93 @@ p{
   bottom: 300px;
 }
 
-.copyright{
-    color:#EAF6F6;
-    font-size: 0.8125rem;
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.8125rem;
+  margin-top: 2%;
 }
 .contact {
-    border-radius: 11px;
-    color: #FFFFFF;
-    font-family: Arial;
-    font-weight: 100;
-    padding: 1rem;
-    background-color: #66BFBF;
-    border: solid #66BFBF 1px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+  border-radius: 11px;
+  color: #ffffff;
+  font-family: Arial;
+  font-weight: 100;
+  padding: 1rem;
+  background-color: #66bfbf;
+  border: solid #66bfbf 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 2rem;
+}
+
+.footer-link {
+  color: #11999e;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 3.1rem;
+    color: #66bfbf;
+    font-weight: bold;
+  }
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: #66bfbf;
+    font-weight: normal;
+  }
+  hr {
+    border-top: 8px dotted #eaf6f6;
+    border-bottom: none;
+    width: 21%;
+    background-color: white;
+    opacity: 1;
+    margin: auto auto 2%;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 1px;
+    bottom: 164px;
+    width: 21%;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 12px;
+    top: 105px;
+    width: 21%;
+  }
+  .mountain-img {
+    width: 19.3rem;
+  }
+  .profile {
+    width: 100%;
+    margin: 0 auto 3rem auto;
+  }
+  .skills{
+    margin-top: 3rem;
+  }
+  .skill-row {
+    width: 100%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
     text-align: center;
-    margin: 2rem;
- }
-
- .footer-link{
-    color:#11999E;
-    padding: 2rem;
-    text-decoration: none;
- }
-
- a:hover{
-    color: #eaf6f6;
- }
- 
+  }
+  .code-img {
+    width: 62%;
+    margin-left: 18%;
+  }
+  .book-img {
+    width: 62%;
+    float:none;
+    margin-left:0;
+  }
+}
